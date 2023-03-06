@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.c9c55457.css",
+    "main.js": "/react-portfolio/static/js/main.cd971f56.js",
+    "static/media/Resume.pdf": "/react-portfolio/static/media/Resume.d761d0795f4c3cc3c3fa.pdf",
+    "static/media/renttruck.png": "/react-portfolio/static/media/renttruck.422eb3797ff6fb668a48.png",
+    "static/media/techblog.png": "/react-portfolio/static/media/techblog.d25b4be6e96b7f72f622.png",
+    "static/media/weather.png": "/react-portfolio/static/media/weather.70dafd3ee89a60d9a327.png",
+    "static/media/workday.png": "/react-portfolio/static/media/workday.d9ca70ec49c0802a9c1e.png",
+    "static/media/pokemon.png": "/react-portfolio/static/media/pokemon.f5b75113d37c540f948e.png",
+    "static/media/notetaker.png": "/react-portfolio/static/media/notetaker.0d5752fbebdd83b6e6dd.png",
+    "static/media/avatar.jpg": "/react-portfolio/static/media/avatar.30ce258d0d6092f42b1f.jpg",
+    "index.html": "/react-portfolio/index.html",
+    "main.c9c55457.css.map": "/react-portfolio/static/css/main.c9c55457.css.map",
+    "main.cd971f56.js.map": "/react-portfolio/static/js/main.cd971f56.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c9c55457.css",
+    "static/js/main.cd971f56.js"
+  ]
+}
