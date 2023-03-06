@@ -2,7 +2,7 @@ import './style.css'
 import resume from './Resume.pdf'
 
 const Resume = () => {
-
+    //we import our resume in the same directory so the download button will let our users download the pdf file
     return (
         <div className="background">
             <div className="container">

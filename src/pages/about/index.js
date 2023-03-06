@@ -1,12 +1,12 @@
 import './style.css';
 
 const About = () => {
-
+    //about page that imports an avater image in the same directory. card layout is from bootstrap
     return (
         <div className="background">
             <div className="container">
                 <br></br>
-                <h2>About me</h2>
+                <h2 className="display-6 text-center">About Me</h2>
                 <div class="card mb-3">
                     <div class="row g-0">
                         <div class="col-md-4">

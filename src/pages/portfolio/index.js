@@ -1,51 +1,52 @@
 import './style.css'
 import Project from "../../components/projects"
 const Portfolio = () => {
-
+    //project array of objects of all of my projects so we can map through it and use our Project component 
     const projects = [{
         title:"Tech-Blog",
-        image:"/project1.png",
+        image:"techblog",
         imageAlt:"home page of tech blog",
         gitHub:"https://github.com/JJackielee/tech-blog",
         live:"https://jackiestechblog.herokuapp.com/"
     },
     {
         title:"Rent-a-Truck",
-        image:"/project1.png",
+        image:"renttruck",
         imageAlt:"home page of Rent-a-Truck",
         gitHub:"https://github.com/SprocketCreations/truck-rental",
         live:"https://rent-a-truck.herokuapp.com/"
     },
     {
         title:"Pokemon Deck Gen",
-        image:"/project1.png",
+        image:"pokemon",
         imageAlt:"home page of Pokemon Deck Gen",
         gitHub:"https://github.com/JJackielee/pokemon-deck-generator",
         live:"https://jjackielee.github.io/pokemon-deck-generator/"
     },
     {
         title:"Note Taker",
-        image:"/project1.png",
+        image:"notetaker",
         imageAlt:"home page of Note Taker",
         gitHub:"https://github.com/JJackielee/note-taker",
         live:"https://jackiesnotestaking.herokuapp.com/"
     },
     {
         title:"Weather Forecast",
-        image:"/project1.png",
+        image:"weather",
         imageAlt:"home page of Weather Forecast",
         gitHub:"https://github.com/JJackielee/weather-forecast",
         live:"https://jjackielee.github.io/weather-forecast/"
     },
     {
         title:"Day Planner",
-        image:"/project1.png",
+        image:"workday",
         imageAlt:"home page of Day Planner",
         gitHub:"https://github.com/JJackielee/day-planner",
         live:"https://jjackielee.github.io/day-planner/"
     }]
 
-
+    //maps our project array and use the Project component.
+    //we pass in attributes that the project component will be using as well
     return (
         <div class="background">
             <div class="container">

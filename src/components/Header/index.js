@@ -2,8 +2,8 @@ import "./style.css"
 import { NavLink } from "react-router-dom";
 import React from 'react';
 
-const Nav = () => {
-
+const Header = () => {
+    //uses react-router-dom package to check if user is at a current page. if page isactive then the styling for the nav will change to highlight the user at the page
     return (
 
 
@@ -45,4 +45,4 @@ const Nav = () => {
 
 }
 
-export default Nav
+export default Header

@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 
 const ContactForm = () => {
-
+    // validateemail function that test whether the passed in email is valid using regex to check the structure of the string passed in
     function validateEmail(email) {
         const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
         return re.test(String(email).toLowerCase());
@@ -11,20 +11,21 @@ const ContactForm = () => {
         // Preventing the default behavior of the form submit (which is to refresh the page)
         e.preventDefault();
     
-        // First we check to see if the email is not valid or if the userName is empty. If so we set an error message to be displayed on the page.
+        //uses the validateemail function to check if the email passed in is valid
+        //if it isnt then it will set our error message. and stops the code
         if (!validateEmail(contactEmail)) {
           setErrorMessage('Email is invalid');
-          // We want to exit out of this code block if something is wrong so that the user can correct it
           return;
-          // Then we check to see if the password is not valid. If so, we set an error message regarding the password.
         }
     }
 
+    //state variables declaration
     const [contactName, setContactName] = useState("")
     const [contactEmail, setContactEmail] = useState("")
     const [contactMessage, setContactMessage] = useState("")
     const [errorMessage, setErrorMessage] = useState("")
     
+    //handleerrorchange function to check if each input field is empty. if its empty then it will seterror message
     const handleErrorChange = e =>{
         if(!e.target.value){
            return setErrorMessage(e.target.name + " cannot be empty!")
@@ -40,6 +41,7 @@ const ContactForm = () => {
         }
     }
 
+    //handlechange function that allows our input field to change our state variables
     const handleChange = e =>{
         const {name,value} = e.target;
         switch (name) {
@@ -58,7 +60,9 @@ const ContactForm = () => {
         }
        }
 
-
+       //input field uses handlechange function onChange so we can update our state variables
+       //input field uses handleErrorchange function onBlur so when user clicks out of the input field if the field is empty error message will pop up
+       //form uses handleFormSubmit function so we can check if the passed in email is and valid email
     return (
         <div className = "background">
             <div class="container">
