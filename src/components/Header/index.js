@@ -16,28 +16,28 @@ const Header = () => {
                    } else {
                     return 'notActive'
                    };
-                }} to="/">About Me</NavLink>
+                }} to="/react-portfolio">About Me</NavLink>
                 <NavLink className= {({isActive}) => {
                    if(isActive){
                     return 'active' 
                    } else {
                     return 'notActive'
                    };
-                }} to="/portfolio">Portfolio</NavLink>
+                }} to="/react-portfolio/portfolio">Portfolio</NavLink>
                 <NavLink className= {({isActive}) => {
                    if(isActive){
                     return 'active' 
                    } else {
                     return 'notActive'
                    };
-                }} to="/contact">Contact Me</NavLink>
+                }} to="/react-portfolio/contact">Contact Me</NavLink>
                 <NavLink className= {({isActive}) => {
                    if(isActive){
                     return 'active' 
                    } else {
                     return 'notActive'
                    };
-                }} to="/resume">Resume</NavLink>
+                }} to="/react-portfolio/resume">Resume</NavLink>
             </div>
         </div>
 
