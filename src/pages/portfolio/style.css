@@ -1,0 +1,7 @@
+.image{
+    height: 18rem;
+    object-fit: cover;
+}
+.card-body{
+    text-align: center;
+}

@@ -1,0 +1,35 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: sans-serif;
+}
+
+h2{
+    color:#ffc857;
+}
+
+.card-header{
+    color:#353535;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.btn-primary{
+    --bs-btn-bg: #353535;
+    --bs-btn-border-color: #353535;
+    --bs-btn-hover-bg: #ffc857;
+    --bs-btn-hover-border-color: #ffc857;
+}
+
+.nav{
+    --bs-nav-link-color: #ffc857;
+    --bs-nav-link-hover-color: #284b63;
+
+}
+
+body{
+    color:white;
+    background-color: #353535;
+
+}
