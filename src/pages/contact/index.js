@@ -17,6 +17,11 @@ const ContactForm = () => {
           setErrorMessage('Email is invalid');
           return;
         }
+
+        setContactEmail("");
+        setContactMessage("");
+        setContactName("");
+        setErrorMessage("Message Sent! Thank you")
     }
 
     //state variables declaration

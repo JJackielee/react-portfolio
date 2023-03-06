@@ -16,7 +16,7 @@ const Header = () => {
                    } else {
                     return 'notActive'
                    };
-                }} to="/react-portfolio">About Me</NavLink>
+                }} to="/react-portfolio/">About Me</NavLink>
                 <NavLink className= {({isActive}) => {
                    if(isActive){
                     return 'active' 
