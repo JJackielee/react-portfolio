@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.c9c55457.css",
-    "main.js": "/react-portfolio/static/js/main.1e3d0e14.js",
-    "static/media/Resume.pdf": "/react-portfolio/static/media/Resume.d761d0795f4c3cc3c3fa.pdf",
+    "main.js": "/react-portfolio/static/js/main.584ec636.js",
+    "static/media/makin.png": "/react-portfolio/static/media/makin.7636fd39ec2924a3fe75.png",
     "static/media/renttruck.png": "/react-portfolio/static/media/renttruck.422eb3797ff6fb668a48.png",
     "static/media/techblog.png": "/react-portfolio/static/media/techblog.d25b4be6e96b7f72f622.png",
     "static/media/weather.png": "/react-portfolio/static/media/weather.70dafd3ee89a60d9a327.png",
@@ -10,12 +10,13 @@
     "static/media/pokemon.png": "/react-portfolio/static/media/pokemon.f5b75113d37c540f948e.png",
     "static/media/notetaker.png": "/react-portfolio/static/media/notetaker.0d5752fbebdd83b6e6dd.png",
     "static/media/avatar.jpg": "/react-portfolio/static/media/avatar.30ce258d0d6092f42b1f.jpg",
+    "static/media/jackielee_fullstackdev.pdf": "/react-portfolio/static/media/jackielee_fullstackdev.b92876a44604de98d4b4.pdf",
     "index.html": "/react-portfolio/index.html",
     "main.c9c55457.css.map": "/react-portfolio/static/css/main.c9c55457.css.map",
-    "main.1e3d0e14.js.map": "/react-portfolio/static/js/main.1e3d0e14.js.map"
+    "main.584ec636.js.map": "/react-portfolio/static/js/main.584ec636.js.map"
   },
   "entrypoints": [
     "static/css/main.c9c55457.css",
-    "static/js/main.1e3d0e14.js"
+    "static/js/main.584ec636.js"
   ]
 }
